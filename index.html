@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 id="game-title">Green Game</h2>
+        </div>
+        <div id="splash-screen" class="splash-screen screen" style="display: block;">
+            <p>Welcome to the game!</p>
+            <button id="play-game" class="btn btn-success">Start Game</button>
+        </div>
+        <div id="game-screen" class="screen" style="display: none;">
+            <h3>Let the games begin!</h3>
+            <button id="play-pause" class="btn btn-warning">Play</button>
+            <button id="end-game" class="btn btn-danger">End Game</button>
+        </div>
+        <div id="game-over-screen" class="screen" style="display: none;">
+            <h3>Game Over</h3>
+            <p>The game has ended. Thanks for playing!</p>
+            <button id="play-again" class="btn btn-primary">Play Again</button>
+            <button id="quit-game" class="btn btn-secondary">Quit</button>
+        </div>
+        
+    </div>
+
+</body>
+</html>
